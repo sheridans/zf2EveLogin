@@ -1,0 +1,7 @@
+<div class="alpha-container">
+<?php if (isset($this->characterId) && isset($this->characterName)) { ?>
+    <p>Thank you <?= $this->characterName; ?>.</p>
+<?php } else { ?>
+    <p>Problem with authorisation</p>
+<?php } ?>
+</div>

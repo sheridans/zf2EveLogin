@@ -1,0 +1,23 @@
+{
+    "name": "sheridan/zf2-eve-login",
+    "description": "Enables logging in a user using EVE Online single sign-on",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "eve online",
+        "SSO"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "zf2EveLogin": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
