@@ -174,7 +174,7 @@ class authService implements ServiceLocatorAwareInterface
         $session = new sessionContainer($this->sessionName);
         $characterName = $session->offsetGet('characterName');
         $characterId = $session->offsetGet('characterId');
-        return array('characterName' => $characterName, 'characterId', $characterId);
+        return array('characterName' => $characterName, 'characterId' => $characterId);
     }
 
     /**
