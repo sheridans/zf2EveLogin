@@ -200,7 +200,7 @@ class authService implements ServiceLocatorAwareInterface
         {
             return $configVar[$var];
         }
-        throw new \Exception('config variable not found: ', $var);
+        throw new \Exception('config variable not found: '. $var);
     }
 
 
